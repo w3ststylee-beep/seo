@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kapcsolat — West Style Kft.</title>
+  <meta name="description" content="Kapcsolatfelvétel — West Style Kft. Mosonmagyaróvár" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" /></noscript>
+  <link rel="canonical" href="https://weststylekft.hu/kapcsolat.html" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-west">West</span><span class="logo-style">Style</span>
+        <span class="logo-kft">Kft.</span>
+      </a>
+      <nav class="nav-links" id="nav-links">
+        <a href="index.html" data-i18n="nav.home">Főoldal</a>
+        <a href="szolgaltatasok.html" data-i18n="nav.services">Szolgáltatások</a>
+        <a href="rolunk.html" data-i18n="nav.about">Rólunk</a>
+        <a href="referenciak.html" data-i18n="nav.references">Referenciák</a>
+        <a href="kapcsolat.html" class="nav-active" data-i18n="nav.contact">Kapcsolat</a>
+      </nav>
+      <div class="nav-right">
+        <a href="#" class="btn btn-primary btn-sm" data-i18n="nav.cta">Ajánlatkérés</a>
+        <button class="lang-toggle" id="langToggle" type="button" aria-label="Nyelvváltás">
+          <span class="lang-hu active" id="langHU">HU</span>
+          <span class="lang-sep">/</span>
+          <span class="lang-en" id="langEN">EN</span>
+        </button>
+        <button class="hamburger" id="hamburger" type="button" aria-label="Menü megnyitása" aria-controls="nav-links" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  
+  <main>
+<!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero-bg">
+      <div class="hero-orb orb1" style="opacity:.2"></div>
+      <div class="hero-orb orb2" style="opacity:.12"></div>
+    </div>
+    <div class="container page-hero-content">
+      <div class="breadcrumb">
+        <a href="index.html" data-i18n="nav.home">Főoldal</a>
+        <span>/</span>
+        <span data-i18n="nav.contact">Kapcsolat</span>
+      </div>
+      <h1 data-i18n="cp.contact.title">Kapcsolatfelvétel</h1>
+      <p data-i18n="cp.contact.sub">Kérdése van? Küldjön rövid üzenetet — vagy keressen minket közvetlenül.</p>
+    </div>
+  </section>
+
+  <!-- KAPCSOLATFELVÉTEL -->
+  <section class="contact-page">
+    <div class="container contact-page-inner">
+
+      <div class="contact-form-wrap fade-in">
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="c-name" data-i18n="form.name">Neve</label>
+              <input type="text" id="c-name" name="name" placeholder="Kovács János" required />
+            </div>
+            <div class="form-group">
+              <label for="c-email" data-i18n="form.email">E-mail cím</label>
+              <input type="email" id="c-email" name="email" placeholder="pelda@ceg.hu" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="c-message" data-i18n="form.message">Üzenet</label>
+            <textarea id="c-message" name="message" rows="7" data-i18n-placeholder="form.messagePh" required></textarea>
+          </div>
+          <div class="hp-field" aria-hidden="true">
+            <label for="c-website">Weboldal</label>
+            <input type="text" id="c-website" name="_honey" tabindex="-1" autocomplete="off" />
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" data-i18n="form.send">Üzenet küldése</button>
+          <div class="form-note" data-i18n="form.note">Az adatait bizalmasan kezeljük, harmadik félnek nem adjuk át.</div>
+        </form>
+      </div>
+
+      <div class="contact-sidebar fade-in">
+        <div class="cs-block">
+          <h2 data-i18n="cs.direct">Közvetlen elérhetőségek</h2>
+          <div class="cs-item">
+            <div class="cs-icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="2"/><polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2"/></svg>
+            </div>
+            <div>
+              <span class="cs-label" data-i18n="cs.emailLabel">E-mail</span>
+              <a href="mailto:w3st.stylee@gmail.com">w3st.stylee@gmail.com</a>
+            </div>
+          </div>
+          <div class="cs-item">
+            <div class="cs-icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.1 2.18 2 2 0 012.11 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.45-.45a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" stroke="currentColor" stroke-width="2"/></svg>
+            </div>
+            <div>
+              <span class="cs-label" data-i18n="cs.phoneLabel">Telefon</span>
+              <a href="tel:+36306397354">+36 30 639 7354</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="cs-block cs-hours">
+          <h2 data-i18n="cs.hours">Elérhetőségi idő</h2>
+          <div class="cs-schedule">
+            <div class="cs-day"><span data-i18n="cs.weekday">Hétfő – Péntek</span><span>9:00 – 16:00</span></div>
+            <div class="cs-day cs-closed"><span data-i18n="cs.weekend">Hétvége</span><span data-i18n="cs.closed">Zárva</span></div>
+          </div>
+          <div class="cs-avail">
+            <div class="avail-dot"></div>
+            <span data-i18n="cs.online">Jelenleg online</span>
+          </div>
+        </div>
+
+        <div class="cs-block cs-promise">
+          <div class="csp-icon">
+            <svg viewBox="0 0 32 32" fill="none"><path d="M16 4C9.373 4 4 9.373 4 16s5.373 12 12 12 12-5.373 12-12S22.627 4 16 4z" stroke="currentColor" stroke-width="2"/><path d="M10 16l4 4 8-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div>
+            <strong data-i18n="csp.title">24 órás válaszidő</strong>
+            <p data-i18n="csp.desc">Minden megkeresésre munkanapokon 24 órán belül válaszolunk.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag" data-i18n="faq.tag">GYIK</span>
+        <h2 data-i18n="faq.title">Gyakori kérdések</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item fade-in">
+          <button class="faq-q" type="button" data-i18n="faq.q1">Mennyi ideig tart egy weboldal elkészítése?</button>
+          <div class="faq-a"><p data-i18n="faq.a1">Egy standard bemutatkozó oldal általában 2–4 hét alatt elkészül. Komplexebb projekteknél (webshop, egyedi fejlesztés) ez 4–8 hét. A pontos határidőt az első konzultáció után adjuk meg.</p></div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-q" type="button" data-i18n="faq.q2">Mennyibe kerülnek a szolgáltatások?</button>
+          <div class="faq-a"><p data-i18n="faq.a2">Az árak a projekt összetettségétől és a kért funkcióktól függenek. Ingyenes konzultáción felmérjük az igényeket és személyre szabott ajánlatot készítünk — rejtett díjak nélkül.</p></div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-q" type="button" data-i18n="faq.q3">Kell-e technikai tudás az oldal kezeléséhez?</button>
+          <div class="faq-a"><p data-i18n="faq.a3">Nem. Minden weboldalt úgy készítünk el, hogy Ön önállóan, technikai tudás nélkül tudja frissíteni a tartalmakat. Rövid oktatást is biztosítunk az átadáskor.</p></div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-q" type="button" data-i18n="faq.q4">Milyen eredményeket hozhat a SEO + AI monitoring?</button>
+          <div class="faq-a"><p data-i18n="faq.a4">Az eredmények piactól és versenytől függnek, de általánosan 3–6 hónapon belül mérhető javulás tapasztalható a keresési pozíciókban és az organikus forgalomban.</p></div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-q" type="button" data-i18n="faq.q5">Vállalnak-e hosszú távú karbantartást?</button>
+          <div class="faq-a"><p data-i18n="faq.a5">Igen — havi karbantartási csomagokat kínálunk, amelyek tartalmaznak technikai frissítéseket, biztonsági mentéseket, kisebb módosításokat és támogatást.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </main>
+
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <span class="logo-west">West</span><span class="logo-style">Style</span>
+            <span class="logo-kft">Kft.</span>
+          </a>
+          <p data-i18n="footer.tagline">Digitális megoldások, valódi eredmények.</p>
+        </div>
+        <div class="footer-nav">
+          <span class="fn-title" data-i18n="footer.nav">Navigáció</span>
+          <a href="index.html" data-i18n="nav.home">Főoldal</a>
+          <a href="szolgaltatasok.html" data-i18n="nav.services">Szolgáltatások</a>
+          <a href="rolunk.html" data-i18n="nav.about">Rólunk</a>
+          <a href="referenciak.html" data-i18n="nav.references">Referenciák</a>
+          <a href="kapcsolat.html" data-i18n="nav.contact">Kapcsolat</a>
+          <a href="aszf.html" data-i18n="legal.terms">ÁSZF</a>
+          <a href="adatvedelem.html" data-i18n="legal.privacy">Adatvédelmi tájékoztató</a>
+        </div>
+        <div class="footer-nav">
+          <span class="fn-title" data-i18n="footer.services">Szolgáltatások</span>
+          <a href="szolgaltatasok.html#web" data-i18n="s1.title">Weboldal Készítés</a>
+          <a href="szolgaltatasok.html#seo" data-i18n="s2.title">SEO + AI Monitoring</a>
+          <a href="szolgaltatasok.html#marketing" data-i18n="s3.title">Automatizált Marketing</a>
+        </div>
+        <div class="footer-contact-col">
+          <span class="fn-title" data-i18n="footer.contactTitle">Elérhetőség</span>
+          <a href="mailto:w3st.stylee@gmail.com">w3st.stylee@gmail.com</a>
+          <a href="tel:+36306397354">+36 30 639 7354</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2026 West Style Kft. <span data-i18n="footer.rights">Minden jog fenntartva.</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

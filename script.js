@@ -169,7 +169,7 @@ const translations = {
     "form.success":    "Köszönjük! Hamarosan felvesszük Önnel a kapcsolatot.",
     "form.successTitle": "Üzenet elküldve!",
     "form.successDesc":  "Köszönjük megkeresését. Hamarosan felvesszük Önnel a kapcsolatot — egy visszaigazolót is küldtünk az e-mail címére.",
-    "form.error":      "Sajnáljuk, hiba történt. Kérjük, próbálja újra, vagy írjon közvetlenül: w3st.stylee@gmail.com",
+    "form.error":      "Sajnáljuk, hiba történt. Kérjük, próbálja újra, vagy írjon közvetlenül: info@weststylee.com",
 
     "modal.tag":   "Ajánlatkérés",
     "modal.title": "Kérjen személyre szabott ajánlatot",
@@ -500,7 +500,7 @@ const translations = {
     "form.success":    "Thank you! We'll be in touch shortly.",
     "form.successTitle": "Message sent!",
     "form.successDesc":  "Thank you for reaching out. We'll be in touch soon — a confirmation has also been sent to your email address.",
-    "form.error":      "Sorry, something went wrong. Please try again or email us directly: w3st.stylee@gmail.com",
+    "form.error":      "Sorry, something went wrong. Please try again or email us directly: info@weststylee.com",
 
     "modal.tag":   "Get a Quote",
     "modal.title": "Request a personalised quote",
@@ -761,7 +761,7 @@ document.querySelectorAll('.faq-q').forEach(btn => {
 });
 
 // ===== CONTACT FORMS =====
-const FORMSUBMIT_URL = 'https://formsubmit.co/ajax/w3st.stylee@gmail.com';
+const FORMSUBMIT_URL = 'https://formsubmit.co/ajax/info@weststylee.com';
 const MIN_FORM_FILL_TIME = 2500;
 
 document.querySelectorAll('form').forEach(form => {

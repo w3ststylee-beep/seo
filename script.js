@@ -82,6 +82,9 @@ const translations = {
     "st.s3.title": "Weboldal karbantartás",
     "st.s3.desc":  "Rendszeres frissítés, hibajavítás, tartalomfrissítés, PageSpeed ellenőrzés és technikai támogatás.",
     "st.more": "Részletek →",
+    "st.s1.moreLabel": "Weboldal készítés részletei",
+    "st.s2.moreLabel": "Keresőoptimalizálás részletei",
+    "st.s3.moreLabel": "Weboldal karbantartás részletei",
     "st.all":  "Összes szolgáltatás megtekintése",
 
     "co.tag":   "Rólunk",
@@ -452,6 +455,9 @@ const translations = {
     "st.s3.title": "Website Maintenance",
     "st.s3.desc":  "Regular updates, bug fixes, content updates, PageSpeed checks and technical support.",
     "st.more": "Learn more →",
+    "st.s1.moreLabel": "Website development details",
+    "st.s2.moreLabel": "Search engine optimization details",
+    "st.s3.moreLabel": "Website maintenance details",
     "st.all":  "View all services",
 
     "co.tag":   "About Us",
@@ -1305,14 +1311,30 @@ function setSubmitLoading(btn, loading) {
 
 function showFormSuccess(wrap) {
   const t = translations[currentLang];
-  wrap.innerHTML = `
-    <div class="form-success">
-      <div class="form-success-icon">
-        <svg viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </div>
-      <h3>${t['form.successTitle']}</h3>
-      <p>${t['form.successDesc']}</p>
-    </div>`;
+  const success = document.createElement('div');
+  success.className = 'form-success';
+
+  const icon = document.createElement('div');
+  icon.className = 'form-success-icon';
+  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+  svg.setAttribute('viewBox', '0 0 24 24');
+  svg.setAttribute('fill', 'none');
+  const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+  path.setAttribute('d', 'M20 6L9 17l-5-5');
+  path.setAttribute('stroke', 'currentColor');
+  path.setAttribute('stroke-width', '2.5');
+  path.setAttribute('stroke-linecap', 'round');
+  path.setAttribute('stroke-linejoin', 'round');
+  svg.appendChild(path);
+  icon.appendChild(svg);
+
+  const title = document.createElement('h3');
+  title.textContent = t['form.successTitle'];
+  const description = document.createElement('p');
+  description.textContent = t['form.successDesc'];
+
+  success.append(icon, title, description);
+  wrap.replaceChildren(success);
 }
 
 async function submitToFormSubmit(form, payload) {

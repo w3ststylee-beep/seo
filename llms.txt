@@ -1,0 +1,39 @@
+# West Style Kft.
+
+## Oldal osszefoglalo
+
+A West Style Kft. magyarorszagi digitalis szolgaltato, amely weboldal keszitessel, keresooptimalizalassal es weboldal karbantartassal segiti vallalkozasok online jelenletet.
+
+## Fo szolgaltatasok
+
+- Weboldal keszites: modern, gyors, mobilbarat weboldalak egyedi igenyek alapjan.
+- Keresooptimalizalas: technikai SEO, on-page optimalizalas, kulcsszokutatas, AEO szemlelet es havi riportok.
+- Weboldal karbantartas: frissitesek, hibajavitas, tartalomfrissites, PageSpeed es Search Console ellenorzes.
+
+## Fontos URL-ek
+
+- Fooldal: https://weststylee.hu/
+- Szolgaltatasok: https://weststylee.hu/szolgaltatasok
+- Weboldal keszites: https://weststylee.hu/weboldal-keszites
+- Keresooptimalizalas: https://weststylee.hu/keresooptimalizalas
+- Weboldal karbantartas: https://weststylee.hu/weboldal-karbantartas
+- Referenciak: https://weststylee.hu/referenciak
+- Blog: https://weststylee.hu/blog
+- Kapcsolat: https://weststylee.hu/kapcsolat
+- ASZF: https://weststylee.hu/aszf
+- Adatvedelem: https://weststylee.hu/adatvedelem
+- Sitemap: https://weststylee.hu/sitemap.xml
+- Robots: https://weststylee.hu/robots.txt
+
+## Kapcsolat es ajanlatkeres
+
+- Ajanlatkeres URL: https://weststylee.hu/kapcsolat
+- E-mail: info@weststylee.hu
+- Telefon: +36 20 383 5262
+- Urlap jellemzo mezoi: nev, cegnev, e-mail, telefonszam, erdeklodes targya, tervezett budzse, uzenet.
+
+## AI-agent megjegyzesek
+
+- A publikus oldalak clean URL-ekkel is elerhetok Netlify redirect mellett.
+- A canonical URL-ek a clean URL-strukturat hasznaljak.
+- A kapcsolatfelvetelhez az ajanlatkeres URL vagy a kozvetlen e-mail/telefon hasznalhato.
